@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+       
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-image: url(img/netflix.jpg);
+    }
+    div{
+        background-color: #000000c5;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 40px;
+        border-radius: 40px;
+        color: #000000;
+    }
+    img{
+        
+        color: #00000000;
+        padding: 40px;
+        border-radius: 80px;
+        
+    }
+    h1{
+        color: red;
+        font-size: 40px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+    input{
+        padding: 12px;
+        border-radius: 12px;
+        
+    }
+    button{
+        padding: 10px 50px;
+        margin-left: 30px;
+        border-radius: 20px;
+        cursor: pointer;
+
+    }
+    p{
+        color: #fbf7f7;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    a{
+        color: #ff0000;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+</style>
+<body>
+    <main>
+        <img src="img/download (1).png">
+       <div>
+            <h1>Login</h1>
+            <input type="text" placeholder="Username">
+            <br><br>
+            <input type="password" placeholder="password">
+            <br><br>
+            <button>Login</button>
+            <p>Novo por aqui ?<br><br><a href="#"> Cadastre-se</a></p>
+        </div>
+    </main>
+</body>
+</html>
